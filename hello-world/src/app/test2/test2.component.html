@@ -1,0 +1,9 @@
+<div [ngSwitch]="color">
+  <div *ngSwitchCase="'red'">Red</div>
+  <div *ngSwitchCase="'blue'">Blue</div>
+  <div *ngSwitchCase="'green'">Green</div>
+</div>
+
+<div *ngFor="let col of colors; index as i; first as f; last as l; odd as o; even as e">
+  <h2>{{i}} {{col}} {{f}} {{l}} {{o}} {{e}}</h2>
+</div>

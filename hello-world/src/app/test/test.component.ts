@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: '[app-test]',
+  selector: 'app-test',
   template:  `
 
   <div *ngIf="display; then thenBlock; else elseBlock"></div>
